@@ -1,14 +1,30 @@
-<!DOCTYPE html>
 <html lang="fr">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
-<head>
-	<title>Vinscene</title>
-</head>
-<body>
-	<div class="container">
-		<div class="row">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/home/pc/Documents/projet_vin_scene/css/bootstrap.css"><!-- lien bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/home/pc/Documents/projet_vin_scene/css/style.css"><!-- lien style.css perso -->
+    <title>wine Scene</title>
+  </head>
+
+    <body>
+        <header>
+          <div id="body1">
+
+              <h1>WINE<br>Scene</h1>
+
+                <div class="navbar navbar-default">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#">ACCEUIL</a></li>
+                      <li><a href="#">INSCRIPTION</a></li>
+                      <li><a href="#">QUI SOMMES-NOUS?</a></li>
+                      <li><a href="#">NOUS CONTACTER</a></li>
+                    </ul>
+                </div>
+
+              <img src="/home/pc/Documents/classement_tableau/image/ image1.jpg">
+
         <form class="navbar-form" name="formulmaireRecherche" onsubmit="clique(); return false;">
               <input type="texte" name="recherche" class="form-control">
               <input type="radio" name="choixdutype" value="classement" class="radio-inline" checked> 
@@ -19,9 +35,9 @@
               <label>Nom</label>
               <input type="radio" name="choixdutype" value="prenom" class="radio-inline">
              <label> Prenom</label>
-              <button type="submit" class="btn btn-default">
-              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>recherche</button>
+              <button type="submit" class="btn btn-default">recherche</button>
         </form>
+
     		<table class="table table-bordered col-md-12">         
                 <thead> 
                 </thead> 
@@ -31,6 +47,6 @@
         </div>
     </div>    
     <script type="text/javascript" src="Javascript/javascript.js" ></script>
-</body>
+  </body>
 </html>
 
